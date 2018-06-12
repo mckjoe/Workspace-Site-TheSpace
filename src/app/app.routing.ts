@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { LocationsComponent } from './locations/locations.component';
 import { MissionComponent } from './mission/mission.component';
 import { PlansComponent } from './plans/plans.component';
+import { StaffComponent } from './staff/staff.component';
 const appRoutes: Routes = [
   {
     path: '',
@@ -30,6 +31,10 @@ const appRoutes: Routes = [
   {
     path: 'plans',
     component: PlansComponent
+  },
+  {
+    path: 'staff',
+    component: StaffComponent
   }
 ];
 

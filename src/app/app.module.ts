@@ -9,6 +9,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LocationsComponent } from './locations/locations.component';
 import { MissionComponent } from './mission/mission.component';
 import { PlansComponent } from './plans/plans.component';
+import { StaffComponent } from './staff/staff.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { PlansComponent } from './plans/plans.component';
     ContactComponent,
     LocationsComponent,
     MissionComponent,
-    PlansComponent
+    PlansComponent,
+    StaffComponent
   ],
   imports: [
     BrowserModule,
