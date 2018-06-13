@@ -1,4 +1,10 @@
 @import "../../sass/variables";
+
+#green {
+  display: none;
+  width: 100%;
+}
+
 .homepage-grid {
   width: 100%;
   display: grid;
@@ -40,16 +46,19 @@
       margin-bottom: 5px;
     }
     h4 {
-      font-size: 4vw;
+      font-size: 1.5em;
     }
     p {
       margin: 0 auto;
       color: #484848;
-      font-size: 3vw;
+      font-size: .95em;
       width: 80%;
       margin-bottom: 10px;
     }
   }
+  // .menu-option:first-of-type {
+  //   grid-row: 3 / 4;
+  // }
   .locations-banner {
     grid-column: 1 / 3;
     width: 100%;
@@ -85,4 +94,28 @@
   transform: scaleX(1.01);
   border: 1px solid $font-color;
   border-radius: 3px;
+}
+
+@media screen and (min-width: 556px) {
+  .homepage-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .homepage-image {
+      grid-column: 1 / 5;
+      #window {
+        display: none;
+      }
+      #green {
+        display: block;
+      }
+    }
+    .opening-paragraph-div {
+      grid-column: 1 / 5;
+      width: 60%;
+      transform: translateY(-35px);
+    }
+    // this will make the 3rd menu option span two columns
+    // .menu-option:nth-of-type(5) {
+    //   grid-column: span 2;
+    // }
+  }
 }
