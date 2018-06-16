@@ -15,3 +15,15 @@
 }
 
 // homepage
+@media screen and (min-width: 800px) {
+  #slider {
+    width: 700px;
+    margin: 25px auto;
+    figure {
+      width: 700px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
