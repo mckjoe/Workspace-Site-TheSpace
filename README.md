@@ -3,7 +3,7 @@
 # The Space
 
 ## View Site
-To interact with this webpage go to: https://the-space-a39f3.firebaseapp.com/
+To interact with this webpage go to: https://space-6aa0d.firebaseapp.com/
 ## Important!
 This site was made with Angular.  To view the site in a live development server, please clone repository from github to your desktop, enter the project home directory and with command line enter "npm install".  this will add all needed dependencies, and then you can run "ng serve --open" i the command line to view the site in a live development server.
 
