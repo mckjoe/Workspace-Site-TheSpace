@@ -3,7 +3,7 @@
 # The Space
 
 ## View Site
-To interact with this webpage go to: https://space-6aa0d.firebaseapp.com/
+To interact with this webpage go to: https://space-6aa0d.firebaseapp.com/  - There is one known bug, in that one of the images (assets/images/space2.webp) isnt recognized by firebase.  The final version in github has this image replaced but the deployed site still contains the image that doesnt display, so in the image slider the second image doesnt show up.
 ## Important!
 This site was made with Angular.  To view the site in a live development server, please clone repository from github to your desktop, enter the project home directory and with command line enter "npm install".  this will add all needed dependencies, and then you can run "ng serve --open" i the command line to view the site in a live development server.
 
